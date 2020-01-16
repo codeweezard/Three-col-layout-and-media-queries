@@ -1,0 +1,2 @@
+# Three col layout and media queries
+ Here is basically how to create a three col layout using the css float property, this video contains a basic information to get you started in layout plus also with the help of media queries, which i take a quick preview on in this video, you'll be able to achieve responsiveness on different devices, such as a single column layout layout on mobile, two column layout on tablets and three column layout on laptops and bigger devices.
