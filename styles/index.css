@@ -1,0 +1,59 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+* {
+    margin: 0;
+}
+
+body{
+    background-color: bisque;
+}
+
+.header {
+    background-color: rgb(58, 56, 56);
+    display: flex;
+    justify-content: space-around;
+    color: cornsilk;
+}
+.main {
+    /* height: 80vh; */
+}
+
+div {
+    width: 33%;
+    min-height: 30rem;
+    /* display: inline-flex; */
+    word-spacing: 8px;
+}
+
+div.box-left {
+    background-color: cadetblue;
+    float: left;
+}
+
+div.box-center {
+    float: left;
+}
+
+div.box-right {
+    background-color: rgb(132, 239, 243);
+    float: left;
+}
+
+footer {
+    background-color: rgb(54, 54, 54);
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: cornsilk;
+    clear: both;
+}
+
+@media screen and (max-width: 428px) {
+    div {
+        display: block;
+        width: 100%;
+        min-height: 180px;
+    }
+}
